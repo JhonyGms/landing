@@ -1,0 +1,190 @@
+/* formulario */
+
+input, textarea, select, button {
+    width : 150px;
+    margin: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: white;
+    padding-top: 20px;  
+    padding-bottom: 10px;
+
+}
+
+
+
+/* Texto */
+.titulo {
+
+}
+
+.texto-titulo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+}
+
+.text-subtitulo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    color: white;
+    font-weight: 100;
+}
+
+.text-ganar,.text-ganar2,.text-ganar3{
+    margin-top: 0px;
+    vertical-align: middle;
+    color: white;
+}
+
+
+.text-ganar2{
+   font-size: 10px;
+   margin-bottom: 0px;
+   padding: 0px;
+   line-height:10px;
+
+}
+
+
+
+.text-ganar3{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+
+.texto-footer{
+    margin: 0px;
+    vertical-align: middle;
+    color: #695d63;
+}
+
+.texto-peque{
+
+}
+
+/* Imagenes */
+
+.imagen-ganar {
+    width: 700px;
+}
+.imagen-ganate {
+    width: 400px;
+}
+.imagen-snacks {
+    width: 350px;
+}
+.imagen-logo {
+    width: 200px;
+}
+.iconos{
+    vertical-align: middle;
+    width: 35px;
+}
+
+
+
+/* Secciones */
+
+.p1{
+    display: flex;
+}
+
+.sec-1{
+    background-color: #734ca2;
+    
+}
+
+.sec-2{
+    background-color: #66b32f;
+}
+
+.sec-3{
+    background-color:#e1ddda;
+}
+
+.contenedores{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5px;
+    padding-bottom  : 5px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    padding:0;
+
+}
+.colum1{
+    width: 60%;      
+    float:left;     
+}
+
+.colum2{
+    width: 40%;  
+    float:left;     
+
+}
+/* respon */
+
+@media only screen and (max-width: 900px) {
+
+    /* Secciones */
+
+    .contenedores{
+        margin: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+    }
+
+    body{
+    
+        
+    }
+    
+    /* Imagenes */
+
+    .imagen-ganar {
+        width: 70%;
+    }
+
+    .iconos{
+        vertical-align: middle;
+        width: 20px;
+    }
+
+
+    
+    /* Texto */
+
+    .text-ganar{
+        margin-top: 0px;
+        vertical-align: middle;
+        color: white;
+        font-size: 20px;
+    }
+
+    .texto-footer{
+        margin: auto;
+        vertical-align: middle;
+        color: #695d63;
+        font-size: 10px;
+    }
+
+    .texto-peque{
+
+    }
+}
